@@ -32,6 +32,7 @@ public class Bank : MonoBehaviour
 
         if (currentBalance <0 )
         {
+            //Loose the game
             ReloadScene();
         }
     }
